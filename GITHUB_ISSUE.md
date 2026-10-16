@@ -35,7 +35,7 @@
     IDEs:
       Xcode: 26.5/17F42
     npmPackages:
-      @expo/ui: 57.0.21
+      @expo/ui: ~57.0.25 (SDK 57 compatible)
       expo: ~57.0.30 => 57.0.30
       expo-router: ~57.0.28 => 57.0.28
       react: 19.2.3
@@ -47,7 +47,7 @@
 
 Re-run locally before filing: `npx expo-doctor@latest`
 
-Notable: `expo-router` may nest a second `@expo/ui` copy; the app depends on `@expo/ui@57.0.21` and iOS links `ExpoUI` from that version (`npm overrides` in `package.json`).
+Re-run `npx expo-env-info` after `npm install` and paste the output above before filing.
 
 ## Suggested fix
 

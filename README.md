@@ -2,7 +2,7 @@
 
 Minimal iOS repro for an Expo SDK bug report: when the hosted child `UIView` of `RNHostView` is replaced, `ApplySizeFromYogaNode` keeps KVO on the detached view, so `matchContents` sizing breaks inside a SwiftUI `BottomSheet`.
 
-**Package:** `@expo/ui@57.0.21` (unpatched).
+**Package:** `@expo/ui` at the SDK 57–compatible version from `npx expo install @expo/ui` (unpatched).
 
 ## Setup
 
